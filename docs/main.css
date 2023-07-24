@@ -12,7 +12,7 @@
 
 .header::before {
     content: "";
-    background-image: url("background.jpeg");
+    background-image: url("headerbackground.jpeg");
     background-size: cover;
     position: absolute;
     top: 0px;
