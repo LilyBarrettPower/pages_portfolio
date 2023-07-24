@@ -70,7 +70,6 @@
     flex: 30%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     padding: 20px; /* Some padding */
-    font-family: 'Neucha', cursive;
   }
   
   /* Main column */
@@ -78,4 +77,8 @@
     flex: 70%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
+  }
+
+  .write {
+    font-family: 'Neucha', cursive;
   }
