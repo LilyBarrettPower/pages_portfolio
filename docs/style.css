@@ -21,6 +21,6 @@
 #mainhead {
     position: relative;
     color: black;
-    line: height 0.9em;
+    line-height: 0.9em;
     text-align: center;
 }
