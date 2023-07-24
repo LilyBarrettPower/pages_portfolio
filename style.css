@@ -1,0 +1,26 @@
+.header {
+    padding: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header::before {
+    content: "";
+    background-image: url("background.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+#mainhead {
+    position: relative;
+    color: black;
+    line: height 0.9em;
+    text-align: center;
+}
