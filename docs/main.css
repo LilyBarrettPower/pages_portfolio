@@ -82,3 +82,9 @@
   .write {
     font-family: 'Neucha', cursive;
   }
+
+  .img1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
