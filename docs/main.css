@@ -64,28 +64,30 @@
     flex-wrap: wrap;
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
+  /* Create two unequal columns that sit next to each other */
+  /* Left column */
   .side {
     flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
+    background-color: #f1f1f1; 
+    padding: 20px; 
   }
   
   /* Main column */
   .main {
-    flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
-    padding: 20px; /* Some padding */
+    flex: 70%; /* Set the width of the column */
+    background-color: white; 
+    padding: 20px; 
   }
 
+/* Change the font of the left hand side column */
   .write {
     font-family: 'Neucha', cursive;
   }
 
+/* Style the selfie*/
   .img1 {
     background-color: #aaa;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     padding: 20px;
   }
