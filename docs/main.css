@@ -72,9 +72,15 @@
   
   /* Main column */
   .main {
-    flex: 70%; /* Set the width of the column */
+     /* Set the width of the column */
     background-color: white; 
     padding: 20px; 
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 /* Change the font of the left hand side column */
