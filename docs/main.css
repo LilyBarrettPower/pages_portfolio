@@ -67,6 +67,7 @@
   /* Create two unequal columns that sit next to each other */
   /* Left column */
   .side {
+    float: left;
     flex: 30%; /* Set the width of the sidebar */
     background-color: #36454f; 
     padding: 20px; 
