@@ -85,6 +85,7 @@
 
   .img1 {
     background-color: #aaa;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     padding: 20px;
   }
