@@ -73,7 +73,7 @@
 
  .rightColumn {
   flex: 1;         /* This makes this column take up the rest of the remaning space*/
-  background-color: black;
+  background-color: white;
   padding: 20px;
  }
 
