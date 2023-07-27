@@ -77,6 +77,15 @@
   padding: 20px;
  }
 
+ /*To make the flexbox resposive on mobile*/
+ 
+ @media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
 /* Change the font of the left hand side column */
   .write {
     font-family: 'Neucha', cursive;
