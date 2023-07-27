@@ -60,33 +60,21 @@
 
   /* Column container */
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  /* Create two unequal columns that sit next to each other */
-  /* Left column */
-  .side {
-    float: left;
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: #DCDCDC; 
-    padding: 20px; 
-  }
-  
+ .container {
+  display: flex;
+ }
 
-  /* Main column */
-  .main {
-    flex: 70%;/* Set the width of the column */
-    background-color: white; 
-    padding: 20px; 
-  }
+ .leftColumn {
+  flex: 0 0 30%;
+  background-color: grey;
+  padding: 20px;
+ }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+ .rightColumn {
+  flex: 1;         /* This makes this column take up the rest of the remaning space*/
+  background-color: black;
+  padding: 20px;
+ }
 
 /* Change the font of the left hand side column */
   .write {
