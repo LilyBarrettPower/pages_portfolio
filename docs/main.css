@@ -12,7 +12,7 @@
 
 .header::before {
     content: "";
-    background-image: url("headerbackground.jpeg");
+    background-image: url("images/Picture1.jpg");
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -24,10 +24,11 @@
 
 #mainhead {
     position: relative;
-    color: black;
+    color: white;
     line-height: 0.9em;
     text-align: center;
     font-family: 'Lumanosimo', cursive;
+    font-size: large;
 }
 
 /* Add a black background color to the top navigation */
