@@ -13,7 +13,7 @@
 .header::before {
     content: "";
     background-image: url("images/Picture1.jpg");
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     top: 0px;
     right: 0px;
