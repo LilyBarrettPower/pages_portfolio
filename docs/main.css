@@ -13,6 +13,7 @@
 
 .logo {
   max-width: 100px;
+  float: left;
 }
 
 #mainhead {
