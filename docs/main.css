@@ -8,15 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: grey;
 }
 
-.header::before {
-    content: "";
-    background-image: url("images/Picture1.jpg");
-    background-size: 100%;
-    position: absolute;
-    background-position: top center;
-}
 
 #mainhead {
     position: relative;
